@@ -27,7 +27,6 @@ const connector = new AppSearchAPIConnector({
 const config = {
     apiConnector: connector,
 
-    //Search by play names and entries
     searchQuery: {
       
         //Results display: name of the play, its speaker, and text entry.
