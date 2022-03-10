@@ -1,34 +1,32 @@
-# elasticsearch-test-api
-Getting started 🐣
-The Reference UI is great for:
+## Overview
+- The task is to build a website that lets users perform searches related to Shakespeare’s
+plays. For example, if a user types the search term “HENRY IV” or “sword” they would
+expect to see some results.<br> 
+- Also consider what happens if you have more than 10 results, how you would handle it if there were no results for a given query, that your website would be consumed by different devices.
 
-search demos
-functional tests of App Search Engine data
-a starting point for new search experiences
-Requires npm.
 
-Dependencies:
+## Deployment 
+#1 The app is deployed via [Netlify](https://www.netlify.com/) [HERE](karina4840-elasticsearch-api-test.netlify.app/). 
+<br>
+<br>
+#2 Run the following commands to start this application locally:<br>
 
-Node v16.13.0
-One can leverage NVM to install Node before proceeding to start the application by running the following commands:
+```bash
+# Download .zip of this repo and extract the files
+Code -> Download ZIP
 
-# Run this to install Node 16.13.0
-nvm install 16.13.0
+# Run the `cd` command to change the current 
+# directory to the location of your downloaded app
 
-# Run this to use the installed Node version 
-nvm use 16.13.0
-The README assumes that you have generated this code from within the App Search dashboard.
-
-Run the following commands to start this application:
-
-# Run the `cd` command to change the current directory to the
-# location of your downloaded Reference UI. Replace the path
-# below with the actual path of your project.
-cd ~/Downloads/app-search-reference-ui
-
-# Run this to set everything up
-npm install
+cd ~/Downloads/elasticsearch-test-api-main
 
 # Run this to start your application and open it up in a new browser window
 npm start
-Usage
+```
+
+
+
+
+
+
+<img src="https://github.com/karina4840/elasticsearch-test-api/blob/main/img/img1.png?raw=true" height=300px/>
