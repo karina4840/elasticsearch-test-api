@@ -1,0 +1,23 @@
+import _extends from "@babel/runtime/helpers/extends";
+import _objectWithoutProperties from "@babel/runtime/helpers/objectWithoutProperties";
+var _excluded = ["children", "className"];
+import PropTypes from "prop-types";
+import React from "react";
+import { appendClassName } from "./view-helpers";
+
+function Facets(_ref) {
+  var children = _ref.children,
+      className = _ref.className,
+      rest = _objectWithoutProperties(_ref, _excluded);
+
+  return /*#__PURE__*/React.createElement("div", _extends({
+    className: appendClassName("sui-facet-container", className)
+  }, rest), children);
+}
+
+Facets.propTypes = {
+  children: PropTypes.node.isRequired,
+  className: PropTypes.string
+};
+export default Facets;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3NyYy9GYWNldHMuanMiXSwibmFtZXMiOlsiUHJvcFR5cGVzIiwiUmVhY3QiLCJhcHBlbmRDbGFzc05hbWUiLCJGYWNldHMiLCJjaGlsZHJlbiIsImNsYXNzTmFtZSIsInJlc3QiLCJwcm9wVHlwZXMiLCJub2RlIiwiaXNSZXF1aXJlZCIsInN0cmluZyJdLCJtYXBwaW5ncyI6Ijs7O0FBQUEsT0FBT0EsU0FBUCxNQUFzQixZQUF0QjtBQUNBLE9BQU9DLEtBQVAsTUFBa0IsT0FBbEI7QUFFQSxTQUFTQyxlQUFULFFBQWdDLGdCQUFoQzs7QUFFQSxTQUFTQyxNQUFULE9BQWtEO0FBQUEsTUFBaENDLFFBQWdDLFFBQWhDQSxRQUFnQztBQUFBLE1BQXRCQyxTQUFzQixRQUF0QkEsU0FBc0I7QUFBQSxNQUFSQyxJQUFROztBQUNoRCxzQkFDRTtBQUNFLElBQUEsU0FBUyxFQUFFSixlQUFlLENBQUMscUJBQUQsRUFBd0JHLFNBQXhCO0FBRDVCLEtBRU1DLElBRk4sR0FJR0YsUUFKSCxDQURGO0FBUUQ7O0FBRURELE1BQU0sQ0FBQ0ksU0FBUCxHQUFtQjtBQUNqQkgsRUFBQUEsUUFBUSxFQUFFSixTQUFTLENBQUNRLElBQVYsQ0FBZUMsVUFEUjtBQUVqQkosRUFBQUEsU0FBUyxFQUFFTCxTQUFTLENBQUNVO0FBRkosQ0FBbkI7QUFLQSxlQUFlUCxNQUFmIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFByb3BUeXBlcyBmcm9tIFwicHJvcC10eXBlc1wiO1xuaW1wb3J0IFJlYWN0IGZyb20gXCJyZWFjdFwiO1xuXG5pbXBvcnQgeyBhcHBlbmRDbGFzc05hbWUgfSBmcm9tIFwiLi92aWV3LWhlbHBlcnNcIjtcblxuZnVuY3Rpb24gRmFjZXRzKHsgY2hpbGRyZW4sIGNsYXNzTmFtZSwgLi4ucmVzdCB9KSB7XG4gIHJldHVybiAoXG4gICAgPGRpdlxuICAgICAgY2xhc3NOYW1lPXthcHBlbmRDbGFzc05hbWUoXCJzdWktZmFjZXQtY29udGFpbmVyXCIsIGNsYXNzTmFtZSl9XG4gICAgICB7Li4ucmVzdH1cbiAgICA+XG4gICAgICB7Y2hpbGRyZW59XG4gICAgPC9kaXY+XG4gICk7XG59XG5cbkZhY2V0cy5wcm9wVHlwZXMgPSB7XG4gIGNoaWxkcmVuOiBQcm9wVHlwZXMubm9kZS5pc1JlcXVpcmVkLFxuICBjbGFzc05hbWU6IFByb3BUeXBlcy5zdHJpbmdcbn07XG5cbmV4cG9ydCBkZWZhdWx0IEZhY2V0cztcbiJdfQ==
