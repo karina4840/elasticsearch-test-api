@@ -6,7 +6,7 @@ expect to see some results.<br>
 
 
 ## Deployment 
-#1 The app is deployed via Netlify [HERE](karina4840-elasticsearch-api-test.netlify.app/). 
+#1 The app is deployed via Netlify [HERE](https://karina4840-elasticsearch-api-test.netlify.app/). 
 <br>
 <br>
 #2 Run the following commands to start this application locally:<br>
