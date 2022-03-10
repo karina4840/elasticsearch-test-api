@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/elasticsearch-api-test/static/css/main.a7cb04a1.css",
+    "main.js": "/elasticsearch-api-test/static/js/main.7c02bcee.js",
+    "index.html": "/elasticsearch-api-test/index.html",
+    "main.a7cb04a1.css.map": "/elasticsearch-api-test/static/css/main.a7cb04a1.css.map",
+    "main.7c02bcee.js.map": "/elasticsearch-api-test/static/js/main.7c02bcee.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a7cb04a1.css",
+    "static/js/main.7c02bcee.js"
+  ]
+}
