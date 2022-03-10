@@ -1,0 +1,109 @@
+* {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.App{
+    background: linear-gradient(#91a7e57e, white )!important;
+    height: 100vh ;
+
+}
+.heading{
+    font-weight: 600;
+    color: white;
+    padding: 20px 0;
+    background-color: #556eb1a8;
+    display: flex;
+    justify-content: center;
+}
+
+
+.sui-layout{
+    align-items: center;
+}
+
+
+/* the header with the input field */
+.sui-layout-header {
+    background: transparent!important;
+    border-color: #556eb1a8 !important;
+}
+/* styling the submit button */
+.sui-search-box__submit {
+    background: #62b6b9c0 !important;
+    font-weight: 600;
+}
+
+/* the body */
+.sui-layout-body {
+    background: transparent !important;
+}
+.sui-layout-body:after{
+    height: 0 !important;
+}
+
+/* customisizing the inner body and the sidebar */
+.sui-layout-body__inner {
+    justify-content: center;
+    height: 100%;
+}
+.sui-layout-sidebar {
+    width: 0 !important;
+    padding: 0 !important;
+}
+
+/* the output container */
+.sui-layout-main {
+    width: 60vw !important;
+    padding: 0 !important;
+}
+.sui-layout-main-header {
+    margin: 20px 0 !important;
+} 
+.sui-layout-header__inner {
+    width: 60vw !important;
+    margin: auto;
+}
+.sui-result{
+    overflow-wrap: anywhere !important;
+    border-color: #8799ca47 !important;
+    background: #a1b5eb47 !important;
+}
+.sui-result__title{
+    font-weight: 600 !important;
+    color: #3a3f4b !important;
+}
+
+
+/* footer */
+.sui-layout-main-footer{
+    margin: 30px 0 !important;
+}
+
+/* changing styles if the screen size is less than 400px*/
+@media (max-width: 400px) {
+    .heading {
+        font-size: 20px;
+    }
+
+    .sui-layout-header{
+        padding: 15px 24px !important;
+    }
+    .sui-search-box__text-input,
+    .sui-search-box__submit {
+        padding: 10px !important;
+    }
+
+    .sui-layout-main-header__inner{
+        flex-direction: column !important;
+        align-items: stretch !important;
+    }
+
+    .sui-select--inline{
+        margin-left: 80px;
+    }
+
+    .sui-result__title{
+        font-size: 1.3rem !important;
+    }
+}
+
