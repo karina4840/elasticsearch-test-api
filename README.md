@@ -6,7 +6,7 @@ expect to see some results.<br>
 
 
 ## Deployment 
-#1 The app is deployed via [Netlify](https://www.netlify.com/) [HERE](karina4840-elasticsearch-api-test.netlify.app/). 
+#1 The app is deployed via Netlify [HERE](karina4840-elasticsearch-api-test.netlify.app/). 
 <br>
 <br>
 #2 Run the following commands to start this application locally:<br>
@@ -23,10 +23,11 @@ cd ~/Downloads/elasticsearch-test-api-main
 # Run this to start your application and open it up in a new browser window
 npm start
 ```
-
-
-
-
-
-
-<img src="https://github.com/karina4840/elasticsearch-test-api/blob/main/img/img1.png?raw=true" height=300px/>
+## Screenshot
+**Results of searching "love"** <br>
+<img src="https://github.com/karina4840/elasticsearch-test-api/blob/main/img/img1.png?raw=true" width=300px/><br>
+**Pagination and Results per Page** <br>
+<img src="https://github.com/karina4840/elasticsearch-test-api/blob/main/img/img4.png?raw=true" width=300px /><br>
+<img src="https://github.com/karina4840/elasticsearch-test-api/blob/main/img/img3.png?raw=true" width=300px/><br> 
+**The output for no results** <br>
+<img src="https://github.com/karina4840/elasticsearch-test-api/blob/main/img/img2.png?raw=true" width=300px/><br>
